@@ -2,6 +2,35 @@
   text-align: center;
 }
 
+/*Navigation Bar*/
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 10px;
+}
+
+.active {
+  font-weight: bold;
+  border-botton: 2px solid #000;
+}
+
+.portfolio-grid {
+display: grid;
+grid-template-columns: repeat(3,1);
+gap: 15px
+}
+
+.portfolio-item {
+  text-align: center;
+}
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
